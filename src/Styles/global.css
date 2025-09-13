@@ -1,0 +1,31 @@
+.home-container{
+    height: auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.phone-card {
+  border: 1px solid #dee2e6; /* Light Gray border */
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  overflow: hidden;
+  max-width: 300px;
+  text-align: center;
+ max-height: 400px;
+}
+
+.phone-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.phone-card .card-img-top {
+  height: 200px;
+  object-fit: contain; /* Changed to 'contain' to prevent image cropping */
+  padding: 10px;
+}
+
