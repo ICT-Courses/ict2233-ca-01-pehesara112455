@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Components/Navbar"
 import "../Styles/global.css"
 import Card from "../Components/Card"
+import Footer from "../Components/Footer"
 
 
 function Home(){
@@ -96,8 +97,8 @@ function Home(){
            <Card/>
            <Card/>
       </div>
-      
-    </div>
+      <Footer/>
 
+    </div>
   )
 }export default Home;
