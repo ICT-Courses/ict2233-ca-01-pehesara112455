@@ -28,4 +28,23 @@
   object-fit: contain; /* Changed to 'contain' to prevent image cropping */
   padding: 10px;
 }
-
+.phoneContainer{
+  height: auto;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.card-wrapper {
+  display: flex;
+  
+}
+.card-Con{
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  gap: 5%;
+}

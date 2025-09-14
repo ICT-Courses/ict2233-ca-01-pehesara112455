@@ -83,7 +83,7 @@ function Home(){
 
       </div>
       <div className="container text-start">
-          <h2 style={{marginTop:"10px",fontSize:"3rem"}}>TOP DEAL</h2>
+          <h2 style={{marginTop:"10px",fontSize:"3rem"}}>TOP DEALS</h2>
       </div>
       
       

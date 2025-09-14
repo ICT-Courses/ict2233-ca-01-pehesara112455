@@ -10,8 +10,8 @@ function Phonecard(){
             alt="Iphone"/>
             <h4>i Phone 11 pro</h4>
             <p>The latest flagship from TechX with an A15 Bionic chip and a cinematic camera system.</p>
-            <p style={{color:"red", marginBottom:"0px"}}>Rs.209,000</p>
-            <p style={{color:"gray",fontWeight:"bold",fontSize:"1.5rem",marginTop:"0px"}}>Rs.204,000</p>
+            <p style={{color:"gray", marginBottom:"0px"}}>LRK 209,000</p>
+            <p style={{color:"red",fontWeight:"bold",fontSize:"1.5rem",marginTop:"0px"}}>Rs.204,000</p>
         </div>
     )
 }

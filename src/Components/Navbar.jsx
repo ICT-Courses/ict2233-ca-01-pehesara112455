@@ -3,7 +3,7 @@ import {FaMobileAlt } from "react-icons/fa"
 
 function Navbar(){
     return(
-        <nav className="navbar navbar-expand-lg navbar-dark fixed-top py-2" style={{backgroundColor:'#6c757d'}}>
+        <nav className="navbar navbar-expand-lg navbar-dark fixed-top py-2" style={{backgroundColor:'#000000ff'}}>
             <div className="container-fluid px-3">
                 <Link className="navbar-brand" to="/">
                 <FaMobileAlt size={40} className="me-2 fs-3" />
@@ -18,7 +18,6 @@ function Navbar(){
                     aria-controls="navbarNav"
                     aria-expanded="false"
                     aria-label="Toggle navigation"
-                    
                 >
                 <span className="navbar-toggler-icon"></span>
                 </button>
@@ -29,7 +28,7 @@ function Navbar(){
                             <NavLink className="nav-link fs-5 " to="/">Home</NavLink>
                         </li>
                         <li className="nav-item me-5">
-                            <NavLink className="nav-link fs-5 " to="/">Phone</NavLink>
+                            <NavLink className="nav-link fs-5 " to="/Phone">Phone</NavLink>
                         </li>
                         <li className="nav-item me-5">
                             <NavLink className="nav-link fs-5 " to="/">About</NavLink>
