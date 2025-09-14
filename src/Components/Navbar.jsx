@@ -31,10 +31,10 @@ function Navbar(){
                             <NavLink className="nav-link fs-5 " to="/Phone">Phone</NavLink>
                         </li>
                         <li className="nav-item me-5">
-                            <NavLink className="nav-link fs-5 " to="/">About</NavLink>
+                            <NavLink className="nav-link fs-5 " to="/About">About</NavLink>
                         </li>
                         <li className="nav-item me-5">
-                            <NavLink className="nav-link fs-5" to="/">Contact</NavLink>
+                            <NavLink className="nav-link fs-5" to="/Contact">Contact</NavLink>
                         </li>
                     </ul>
                 </div>

@@ -47,6 +47,7 @@ if (isError){
 return ( 
    <div className='phoneContainer'>
       <Navbar/>
+      
       <div className='bg-light text-black w-100' style={{marginTop:"4.5rem", padding:"20px"}}>
         <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
         <div className='d-flex justify-content-center my-3'>
@@ -70,6 +71,7 @@ return (
           </div>
         ))}
       </div>
+      
 
    </div>
 )
